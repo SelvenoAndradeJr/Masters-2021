@@ -1,3 +1,5 @@
+<img src="https://img.shields.io/badge/Language-CH5-blue"> <img src="https://img.shields.io/badge/Platform-Crestron TSW TS xPanel-blue"> <img src="https://img.shields.io/badge/Masters- 2021-blue">  <img src="https://img.shields.io/badge/Use-Educational-green"> <img src="https://img.shields.io/badge/Copyright-Crestron-blue"> <img src="https://img.shields.io/badge/License-Restricted-orange">
+
 ### Masters 2021 HT-101 Walk-in and Student Project
 
 The code is released for the Masters 2021 Shell Project for Crestron MCP-HT-101,201 class.  The walk-in archive source code as well as instructor in class demo code is included.  Archives for deployment are not included in this package and must be built using the template functionality. 
