@@ -1,0 +1,71 @@
+<!-- 
+    Copyright (C) 2021 to the present, Crestron Electronics, Inc.
+    All rights reserved.
+    No part of this software may be reproduced in any form, machine
+    or natural, without the express written consent of Crestron Electronics.
+    Use of this source code is subject to the terms of the Crestron Software License Agreement 
+    under which you licensed this source code.  
+
+    This code was generated automatically by Crestron's code generation tool. 
+-->
+
+<template id="dpad-widget"> 
+    <div class="dpadsection">
+        <div class="dpadrow">
+            <div class="dpadcolumn">
+            </div>
+            <div class="dpadcolumn">
+                <ch5-button id="btn_id"
+                    sendeventonclick="UJOIN"
+                    shape="circle"
+                    stretch="both"
+                    iconurl="app/project/assets/img/Dpad-Icons/Dpad-Up.svg">
+                </ch5-button>
+            </div>
+            <div class="dpadcolumn">                    
+            </div>
+        </div>
+        <div class="dpadrow">
+            <div class="dpadcolumn">
+                <ch5-button id="btn_id"
+                    iconurl="app/project/assets/img/Dpad-Icons/Dpad-Left.svg"
+                    shape="circle"
+                    stretch="both"
+                    sendeventonclick="LJOIN">
+                </ch5-button>
+            </div>
+            <div class="dpadcolumn">
+                <ch5-button id="btn_id"
+                    label="Center"
+                    shape="circle"
+                    stretch="both"
+                    sendeventonclick="CJOIN">
+                </ch5-button>
+            </div>
+            <div class="dpadcolumn">
+                <ch5-button id="btn_id"
+                iconurl="app/project/assets/img/Dpad-Icons/Dpad-Left.svg"
+                iconclass="dright"
+                    shape="circle"
+                    stretch="both"
+                    sendeventonclick="RJOIN">
+                </ch5-button>
+            </div>
+        </div>
+        <div class="dpadrow">
+            <div class="dpadcolumn">
+            </div>
+            <div class="dpadcolumn">
+                <ch5-button id="btn_id"
+                iconurl="app/project/assets/img/Dpad-Icons/Dpad-Left.svg"   
+                    iconclass="ddown"
+                    shape="circle"
+                    stretch="both"
+                    sendeventonclick="DJOIN">
+                </ch5-button>
+            </div>
+            <div class="dpadcolumn">
+            </div>
+        </div>
+    </div>
+</template>

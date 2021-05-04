@@ -1,0 +1,29 @@
+{
+	"name": "Masters201DemoContract",
+	"timestamp": "2021-04-20 12:55:09.427",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "",
+	"signals": {
+		"states": {
+			"boolean": {
+				"1": {
+					"2": "EmulatorDemo.ButtonFb"
+				}
+			},
+			"string": {
+				"1": {
+					"1": "EmulatorDemo.ButtonStringSet"
+				}
+			}
+		},
+		"events": {
+			"boolean": {
+				"EmulatorDemo.ButtonPressed": {
+					"joinId": 1,
+					"smartObjectId": 1
+				}
+			}
+		}
+	}
+}

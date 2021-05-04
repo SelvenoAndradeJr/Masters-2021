@@ -1,0 +1,19 @@
+{
+  "cues": 
+      [
+       {"type":"b","event": "UJOIN","trigger": true,
+          "actions":[
+                      {
+                        "state": "test$",
+                        "type": "string",
+                        "logic": "set",
+                        "value": "The Up Button Has Been Pressed"
+                      }
+                    ]
+        }
+      ],
+  "onStart": 
+      [
+        {"type": "s","state": "test$", "value": "indirect text"}
+      ]
+}

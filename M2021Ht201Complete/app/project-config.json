@@ -1,0 +1,243 @@
+{
+  "projectName": "Shell-Template",
+  "version": "0.0.1",
+  "faviconPath": "favicon.ico",
+  "menuOrientation": "horizontal",
+  "selectedTheme": "light-theme",
+  "useWebXPanel": true,
+  "themes": [
+    {
+      "name": "light-theme",
+      "path": "./assets/theme/light.css",
+      "brandLogo": {
+        "url": "./app/project/assets/img/Masters_2021_H_KO_CMYK_OL.png",
+        "alt": "Masters Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "url": [
+          "./app/project/assets/img/Project-Backgrounds/Masters21_Video-BG_1920x1080_v1.jpg"
+        ]
+      }
+    },
+    {
+      "name": "dark-theme",
+      "path": "./assets/theme/dark.css",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-dark.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "url": [
+          "./app/template/assets/img/ch5-stone-dark-bg.jpg"
+        ]
+      }
+    },
+    {
+      "name": "custom-theme",
+      "path": "./assets/theme/custom.css",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-light.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "url": [
+          "./app/template/assets/img/ch5-stone-light-bg.jpg"
+        ]
+      }
+    }
+  ],
+  "config": {
+    "controlSystem": {
+      
+      "ipId": "0x44"
+     
+    }
+  },
+  "header": {
+    "display": true,
+    "displayInfo": true,
+    "$component": ""
+  },
+  "footer": {
+    "display": true,
+    "$component": ""
+  },
+  "content": {
+    "$defaultView": "courseoutline",
+    "triggerViewProperties": {
+      "gestureable": true
+    },
+    "pages": [
+      {
+        "pageName": "courseoutline",
+        "fullPath": "./app/project/components/pages/courseoutline/",
+        "fileName": "courseoutline.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 1,
+          "label": "Outline",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/crestron_swirl_blue.svg",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "scopeofwork",
+        "fullPath": "./app/project/components/pages/scopeofwork/",
+        "fileName": "scopeofwork.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 2,
+          "label": "SOW",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/crestron_swirl_blue.svg",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "exercise",
+        "fullPath": "./app/project/components/pages/exercise/",
+        "fileName": "exercise.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 3,
+          "label": "Exercise",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/crestron_swirl_blue.svg",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "page1",
+        "fullPath": "./app/project/components/pages/page1/",
+        "fileName": "page1.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 4,
+          "label": "page1",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/crestron_swirl_blue.svg",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "page2",
+        "fullPath": "./app/project/components/pages/page2/",
+        "fileName": "page2.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 5,
+          "label": "menu.page2",
+          "isI18nLabel": true,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/crestron_swirl_blue.svg",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "page3",
+        "fullPath": "./app/project/components/pages/page3/",
+        "fileName": "page3.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 6,
+          "label": "page3",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/crestron_swirl_blue.svg",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "page4",
+        "fullPath": "./app/project/components/pages/page4/",
+        "fileName": "page4.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 7,
+          "label": "menu.page4",
+          "isI18nLabel": true,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/crestron_swirl_blue.svg",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "page5",
+        "fullPath": "./app/project/components/pages/page5/",
+        "fileName": "page5.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 8,
+          "label": "menu.page5",
+          "isI18nLabel": true,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/crestron_swirl_blue.svg",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "page6",
+        "fullPath": "./app/project/components/pages/page6/",
+        "fileName": "page6.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 9,
+          "label": "menu.page6",
+          "isI18nLabel": true,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/crestron_swirl_blue.svg",
+          "iconPosition": "bottom"
+        }
+      }
+    ],
+    "widgets": [
+      {
+        "widgetName": "pagedisplay",
+        "fullPath": "./app/project/components/widgets/pagedisplay/",
+        "fileName": "pagedisplay.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "dpad",
+        "fullPath": "./app/project/components/widgets/dpad/",
+        "fileName": "dpad.html",
+        "widgetProperties": {}
+      }
+    ]
+  }
+}
