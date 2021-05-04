@@ -1,6 +1,6 @@
-### Masters 2021 HT-101 Walk-in and Student Project
+### Masters 2021 HT-201 Walk-in and Student Project
 
-The code is released for the Masters 2021 Shell Project for Crestron MCP-HT-101,201 class.  The walk-in archive source code as well as instructor in class demo code is included.  Archives for deployment are not included in this package and must be built using the template functionality. 
+The code is released for the Masters 2021 Shell Project for Crestron MCP-HT-201 class.  The walk-in archive source code as well as instructor in class demo code is included.  Archives for deployment are not included in this package and must be built using the template functionality. 
 
 
 
